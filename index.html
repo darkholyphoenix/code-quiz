@@ -6,7 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Code-Quiz</title>
   </head>
-  <body>
-    <script src="./assets/js/script.js"></script>
-  </body>
-</html>
+    <body>
+      <header>
+        <h3> High Score</h3>
+        <h3>Time Left: <span id="countdown"></span></h3>
+      </header>
+        <div class="questionContainer" >
+          <h1></h1>
+          <h4></h4>
+          <button id="buttonOne"></button>
+          <button id="buttonTwo"></button>
+          <button id="buttonThree"></button>
+          <button id="buttonFour"></button>
+          <h5 id="answer"></h5>
+          <form id= "scoreName">
+            <div>
+              <label for="score">Enter your initials:</label>
+              <input id="score" type="text" name="text">
+            </div>
+            <div>
+              <input type="button" value="submit" onclick = "hsPage()">
+            </div>
+          </form>
+        </div>
+      </div>
+      <script src="./assets/js/script.js"></script>
+    </body>
+  </html>
+    
